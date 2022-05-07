@@ -1,4 +1,4 @@
-#include "..\Header\calc.h"
+#include "..\Headers\calc.h"
 /*
 int NhapMang(int Mang[], int N)
 {

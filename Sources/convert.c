@@ -1,9 +1,9 @@
-#include "..\Header\convert.h"
+#include "..\Headers\convert.h"
 
 
 void Dec_to_Bin(int M)
 {
-    printf("\n ==>So DECIMA: %d chuyen sang BINARY co gia tri la: ", M);
+    printf("==>So DECIMA: %d chuyen sang BINARY co gia tri la: ", M);
     // Size cua bien integer co 4byte = 32 bit
     int i=0, k=0, x=0;
     while (i<32)
