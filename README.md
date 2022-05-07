@@ -16,7 +16,7 @@ convert 10 - nhị phân 0bxxxxxxxxx.
 Decima to hex.
 
 3. m_string.c
-so sanh 2 mang.
-chen vi tri.
+so sánh 2 mảng.
+chèn vị trí.
 
 
