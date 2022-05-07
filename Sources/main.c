@@ -2,7 +2,11 @@
 #include "..\Headers\calc.h"
 #include "..\Headers\convert.h"
 #include "..\Headers\m_string.h"
-int Mang[]={77,23,45,65,45,34,5,6,1,13,42,44,56,44,67,76,76,54,54,86,97};
+int Mang[]  ={77,23,45,65,45,34,5,6,1,13,42,44,56,44,67,76,76,54,54,86,97};
+         // 0  1  2  3  4  5  6 7 8 9  10 11 12 13 14 15 16 17 18 19 20
+int Mang_2[]={77,23,45};
+         // 0  1  2  3  4  5  6 7 8 9  10 11 12 13 14 15 16 17 18 19 20
+//int Mang_2[]={77,23,45,65,45,34,5,6,1,13,42,44,56,44,67,76,76,54,54,86,97};
          // 0  1  2  3  4  5  6 7 8 9  10 11 12 13 14 15 16 17 18 19 20
 int main()
     {          
@@ -18,6 +22,12 @@ int main()
         Dec_to_Bin(X);
         Dec_to_Hex(X);
         printf("\n");
+
+        if (isEqual(Mang, 21, Mang_2, 21) == 1)  printf("Hai Mang giong nhau!\n");
+            else
+                printf("Hai Mang khac nhau!\n");
+        ChenMang(Mang, 21, Mang_2, 3, 2);
+
         return 0;
     }
 
