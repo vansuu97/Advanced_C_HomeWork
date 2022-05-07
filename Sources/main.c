@@ -8,8 +8,11 @@ int main()
         printf("\n\n====================>HomeWork_Session_2<====================\n\n");
 
 
-        int X=156;
+        int X=1566;
         Dec_to_Bin(X);
+        Dec_to_Hex(X);
+
+        printf("\n");
         return 0;
     }
 
