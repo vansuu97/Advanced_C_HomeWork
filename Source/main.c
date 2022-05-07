@@ -6,7 +6,6 @@
 int main()
     {
         int X=10;
-        printf("hello world");
         printf("HomeWork_Session_2");
         //Dec_to_Bin(X);
         return 0;
