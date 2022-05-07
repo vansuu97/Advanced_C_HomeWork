@@ -4,8 +4,10 @@
 #include "..\Header\m_string.h"
 
 int main()
-{
-printf("hello world");
-printf("HomeWork_Session_2");
-return 0;
-}
+    {
+        int X=10;
+        printf("hello world");
+        printf("HomeWork_Session_2");
+        //Dec_to_Bin(X);
+        return 0;
+    }

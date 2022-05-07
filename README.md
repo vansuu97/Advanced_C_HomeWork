@@ -11,8 +11,8 @@ tìm vị trí trong mảng
 (mảng tối thiểu 20 phần tử)
 
 2. Convert.c
-Nhập vào 1 số tự nhiên (10).
-convert 10 - nhị phân 0bxxxxxxxxx.
+Nhập vào 1 số tự nhiên (DECIMAl).
+convert DECIMAl - binary 0bxxxxxxxxx.
 Decima to hex.
 
 3. m_string.c
